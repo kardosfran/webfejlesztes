@@ -378,8 +378,12 @@ figcaption{
 .tesztkerdes{
     padding:35px 0;
     border-bottom: #7851c1 solid 1px;
+    font-family:"Poppins",serif;
+    
 }
-
+.tesztkerdes label{
+    font-size:14px;
+}
 .teszt #elso{
     margin-bottom:0;
 }
@@ -392,15 +396,15 @@ figcaption{
 
 .teszt [type="radio"]{
     margin-bottom:15px;
-  }
+}
 
 .teszt [type="checkbox"]{
      margin-bottom:20px;
+
 }
 
 .teszt [type="date"]{
     height:25px;
-    font-size:14px;
     margin-bottom:20px;
 }
 
@@ -422,7 +426,8 @@ figcaption{
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
-    margin-bottom:30px;
+    margin-bottom:15px;
+    margin-top:15px;
 }
 
 #ell,#torol{
@@ -567,6 +572,9 @@ footer p{
     }
     .formtarto p{
         font-size:16px;
+    }
+    .tesztkerdes label{
+        font-size: 16px;;
     }
     .tesztkerdes{
         width:48%;
