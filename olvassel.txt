@@ -1,5 +1,3 @@
-# webfejlesztes
-A webfejlesztés tárgy beadandója.
 Készítette: Kardos Franciska
 
 Weblap URL címe: https://kardosfran.github.io/webfejlesztes/
