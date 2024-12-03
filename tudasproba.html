@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wimbledon</title>
+    <link rel="icon"  type="image/png" href="kepek/favicon.png">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav id="menu">   
+        <div class="logo">
+            <div class="kiskep">
+                <a href="index.html">
+                <img src="kepek/Wimbledon.svg.png" width="100px">
+                </a>
+            </div>
+            <div class="cim">
+                <a href="index.html">Wimbledon</a>
+            </div>
+
+        </div>
+         
+        <div class="menutarto">
+            <a href="index.html">Főoldal</a>
+            <a href="erdekesseg.html">Érdekességek</a>
+            <a href="quiz.html">Quiz</a>
+            <a href="tudasproba.html"  class="active">Tudáspróba</a>
+        </div>
+
+        <div class="hamburgertarto">
+            <a href="javascript:void(0);" class="icon" id="hambi">
+                <img src="kepek/burger.svg">
+            </a>
+        </div>
+    </nav>
+    
+    <div id="links">
+        <a href="index.html">Főoldal</a>
+        <a href="erdekesseg.html">Érdekességek</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="tudasproba.html"  class="active">Tudáspróba</a>
+    </div>
+
+   <article class="teszt">
+    <h1>
+        Teszteld tudásod az alábbi teszt kitöltésével!
+    </h1>
+    <form id="tudas" novalidate>
+
+        <div class="formtarto">
+           
+            <div id="1" class="tesztkerdes">
+                <label for="nyertesek"><p id="elso">1) Ki nyerte a legtöbb wimbledoni egyéni bajnoki címet a történelemben?</p></label><br>
+                    <select name="nyertesek" id="nyertesek">
+                        <option value="roger">Roger Federer</option>
+                        <option value="martina">Martina Navratilova</option>
+                        <option value="serena">Serena Williams</option>
+                        <option value="pete">Pete Sampras</option>
+                    </select>
+            </div>
+           
+            <div id="2" class="tesztkerdes">               
+                    <p>2) A wimbledoni teniszbajnokság a négy Grand Slam-torna közül az egyetlen, amelyet füves borításon rendeznek meg.</p>
+                
+                <label for="igaze">
+                    <input type="radio" id="igaze" name="igaze" value="igaz" >Igaz<br></label>
+                <label for="igaze2">
+                    <input type="radio" id="igaze2" name="igaze" value="hamis">Hamis<br>
+                </label>
+            </div>
+            
+            <div id="3" class="tesztkerdes">
+                <label for="edesseg">
+                   <p>3) Mi a népszerű wimbledoni édesség magyar neve?</p></label>
+                   <input type="text" name="edesseg" id="edesseg"> <br>     
+            </div>
+            
+            <div id="4" class="tesztkerdes">
+                <p>4) Ki nyert már wimbledoni tornát az alábbi
+                játékosok közül?</p>
+                <label for="nyert1">
+                    <input type="checkbox" id="nyert1" name="nyert1">Fucsovics Márton<br>
+                </label>
+                <label for="nyert2">
+                    <input type="checkbox" id="nyert2" name="nyert2">Carlos Alcaraz<br>
+                </label>
+                <label for="nyert3">
+                    <input type="checkbox" id="nyert3" name="nyert3">Novak Djokovic
+                </label>
+            </div>
+            
+            <div id="5" class="tesztkerdes">
+                <label for="datum">
+                    <p>5) Mikor volt a 2024-es döntő?<br></p>
+                </label>
+                    <input id="datum" type="date" name="datum"><br>
+                
+            </div>
+            
+            <div id="6" class="tesztkerdes">
+                <label for="mikor"><p>6) Melyik évben rendezték meg először a wimbledoni teniszbajnokságot?</p></label>
+                <label>
+                    <input id="m1" type="radio" name="mikor" value="1877" >1877<br>
+                </label>
+                <label >
+                    <input type="radio" id="m2" name="mikor" value="1890">1890<br>
+                </label>
+                <label >
+                    <input type="radio" id="m3" name="mikor" value="1901">1901<br>
+                </label>
+                <label >
+                    <input type="radio" id="m4" name="mikor" value="1925">1925<br>
+                </label>
+            </div>
+            
+            <div id="7" class="tesztkerdes">
+                <label for="email">
+                    <p>7) Add meg az e-mail címed további tesztekért!</p>
+                </label>
+                    <input type="email" id="email" name="email"> <br>         
+            </div>
+            <div id="8" class="tesztkerdes">
+                <label for="tel">
+                    <p>8) Add meg a telefonszámod, hogy értesülj az új tesztek elérhetőségéről!</p>
+                </label>
+                    <input type="tel" id="tel" name="tel" placeholder="06307892378"> <br>
+                
+            </div>
+        </div> 
+        <div class="gombok">
+            <input type="submit" id="ell" name="bekuld" value="Ellenőrzés">
+            <input type="reset" id="torol" name="torol" value="Visszaállítás">
+        </div>
+    </form>
+
+   </article>
+    
+    <footer>
+        <p>
+            A honlap tanulmányi célból készült - Kardos Franciska 2024.
+        </p>
+    </footer>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="validation/dist/jquery.validate.min.js">
+    </script>
+    
+    <script src="java.js">
+    </script>
+</body>
+</html>
